@@ -1,0 +1,32 @@
+/* Sass Variables */ 
+$base-font: "Lobster Two", cursive;
+$base-color: #290b0a;
+$headline-color: #f04554;
+$background-color: #01bf2b;
+
+/* Base Styles */
+body {
+    background-color: #eff9fb;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Header */
+header {
+    #announcements {
+        background-color: $headline-color;
+
+        h2 {
+            font-size: 35px;
+            font-family: $base-font;
+        }
+    }
+}
