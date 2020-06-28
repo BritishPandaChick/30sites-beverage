@@ -3,12 +3,15 @@ $base-font: "Lobster Two", cursive;
 $base-color: #290b0a;
 $headline-color: #f04554;
 $background-color: #01bf2b;
+$white: #eff9fb;
+$hover-color: #5a3626;
 
 /* Base Styles */
 body {
-    background-color: #eff9fb;
+    background-color: $white;
     margin: 0 auto;
     width: 100%;
+    color: $base-color;
 }
 
 .full-width {
@@ -19,14 +22,64 @@ img {
     max-width: 100%;
 }
 
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Announcements */
+#announcements {
+    background-color: $headline-color;
+    width: 100%;
+    padding: 20px 0;
+
+    h4 {
+        font-size: 18px;
+        color: $white;
+        text-align: center;
+        font-family: "Arial", sans-serif;
+    }
+
+    p {
+        font-size: 16px;
+        font-family: "Arial", sans-serif;
+        line-height: 32px;
+        color: $white;
+        padding: 15px;
+    }
+}
+
 /* Header */
 header {
-    #announcements {
-        background-color: $headline-color;
+    border: 2px solid purple;
 
-        h2 {
-            font-size: 35px;
-            font-family: $base-font;
+    h1 {
+        font-size: 35px;
+        font-family: $base-font;
+    }
+
+    nav {
+        li {
+            list-style-type: none;
+        }
+        
+        a {
+            text-decoration: none;
+            font-size: 20px;
+            font-family: "Arial", sans-serif;
+            color: $base-color;
+        }
+
+        a:hover {
+            color: $hover-color;
+        }
+
+        button {
+            display: block;
+            width: 100%;
         }
     }
 }

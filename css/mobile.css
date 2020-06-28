@@ -4,6 +4,7 @@ body {
   background-color: #eff9fb;
   margin: 0 auto;
   width: 100%;
+  color: #290b0a;
 }
 
 .full-width {
@@ -14,13 +15,57 @@ img {
   max-width: 100%;
 }
 
-/* Header */
-header #announcements {
-  background-color: #f04554;
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
-header #announcements h2 {
+
+/* Announcements */
+#announcements {
+  background-color: #f04554;
+  width: 100%;
+  padding: 20px 0;
+}
+#announcements h4 {
+  font-size: 18px;
+  color: #eff9fb;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+#announcements p {
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  line-height: 32px;
+  color: #eff9fb;
+  padding: 15px;
+}
+
+/* Header */
+header {
+  border: 2px solid purple;
+}
+header h1 {
   font-size: 35px;
   font-family: "Lobster Two", cursive;
+}
+header nav li {
+  list-style-type: none;
+}
+header nav a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Arial", sans-serif;
+  color: #290b0a;
+}
+header nav a:hover {
+  color: #5a3626;
+}
+header nav button {
+  display: block;
+  width: 100%;
 }
 
 /*# sourceMappingURL=mobile.css.map */
