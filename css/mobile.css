@@ -45,14 +45,19 @@ img {
 
 /* Header */
 header {
-  border: 2px solid purple;
+  width: 100%;
+  padding: 15x 0;
 }
 header h1 {
   font-size: 35px;
   font-family: "Lobster Two", cursive;
 }
+header nav ul {
+  margin-right: 55px;
+}
 header nav li {
   list-style-type: none;
+  padding: 15px 0;
 }
 header nav a {
   text-decoration: none;
@@ -66,6 +71,36 @@ header nav a:hover {
 header nav button {
   display: block;
   width: 100%;
+  background-color: #01bf2b;
+  color: #eff9fb;
+  border: 1px solid transparent;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 0.3rem;
+}
+
+/* Email */
+#email {
+  width: 100%;
+  background-color: #01bf2b;
+  padding: 20px 0;
+}
+#email h2 {
+  font-size: 30px;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  color: #eff9fb;
+}
+#email p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #eff9fb;
+  padding: 15px;
+}
+#email form input {
+  display: block;
+  width: 95%;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=mobile.css.map */
