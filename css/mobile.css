@@ -23,10 +23,13 @@ img {
   margin-left: auto;
 }
 
+.half-width, .third-width {
+  padding: 15px 0;
+}
+
 /* Announcements */
 #announcements {
   background-color: #f04554;
-  width: 100%;
   padding: 20px 0;
 }
 #announcements h4 {
@@ -45,7 +48,6 @@ img {
 
 /* Header */
 header {
-  width: 100%;
   padding: 15x 0;
 }
 header h1 {
@@ -81,7 +83,6 @@ header nav button {
 
 /* Email */
 #email {
-  width: 100%;
   background-color: #01bf2b;
   padding: 20px 0;
 }
@@ -101,6 +102,51 @@ header nav button {
   display: block;
   width: 95%;
   font-size: 20px;
+  border-radius: 0.3rem;
+  margin: 15px 10px;
+  padding: 5px 0;
+  border: 1px solid transparent;
+}
+#email form #submit {
+  display: block;
+  width: 95%;
+  background-color: #f04554;
+  color: #eff9fb;
+  border: 1px solid transparent;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 0.3rem;
+}
+
+#featured .half-width {
+  padding-right: 15px;
+}
+#featured h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Lobster Two", cursive;
+  color: #f04554;
+}
+#featured h3 {
+  font-size: 25px;
+  font-family: "Arial", sans-serif;
+  color: #290b0a;
+}
+#featured p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #290b0a;
+  font-family: "Arial", sans-serif;
+}
+#featured button {
+  display: block;
+  width: 95%;
+  background-color: #f04554;
+  color: #eff9fb;
+  border: 1px solid transparent;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 0.3rem;
 }
 
 /*# sourceMappingURL=mobile.css.map */
