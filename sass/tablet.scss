@@ -1,0 +1,268 @@
+/* Sass Variables */ 
+$base-font: "Lobster Two", cursive;
+$base-color: #290b0a;
+$headline-color: #f04554;
+$background-color: #01bf2b;
+$white: #eff9fb;
+$hover-color: #5a3626;
+
+/* Base Styles */
+body {
+    background-color: $white;
+    margin: 0 auto;
+    width: 100%;
+    color: $base-color;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.full-width {
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.half-width, .third-width {
+    padding: 25px 0;
+}
+
+/* Announcements */
+#announcements {
+    background-color: $headline-color;
+    padding: 10px 0;
+
+    h4 {
+        font-size: 20px;
+        color: $white;
+        text-align: center;
+        font-family: "Arial", sans-serif;
+    }
+
+    p {
+        font-size: 18px;
+        font-family: "Arial", sans-serif;
+        line-height: 32px;
+        color: $white;
+        padding: 0 15px;
+    }
+}
+
+/* Header */
+header {
+    padding: 15x 0;
+
+    h1 {
+        font-size: 40px;
+        font-family: $base-font;
+        padding-left: 15px;
+    }
+
+    nav {
+        ul {
+            margin-right: 55px;
+        }
+
+        li {
+            list-style-type: none;
+            padding: 15px 0;
+        }
+        
+        a {
+            text-decoration: none;
+            font-size: 20px;
+            font-family: "Arial", sans-serif;
+            color: $base-color;
+        }
+
+        a:hover {
+            color: $hover-color;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            background-color: $background-color;
+            color: $white;
+            border: 1px solid transparent;
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 0.3rem;
+        }
+    }
+}
+
+/* Email */
+#email {
+    background-color: $background-color;
+    padding: 20px 0;
+
+    h2 {
+        font-size: 35px;
+        font-family: "Arial", sans-serif;
+        text-align: center;
+        color: $white;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 32px;
+        color: $white;
+        padding: 0 15px;
+    }
+
+    form {
+        input {
+            display: block;
+            width: 95%;
+            font-size: 20px;
+            border-radius: 0.3rem;
+            margin: 15px;
+            padding: 5px 0;
+            border: 1px solid transparent;
+        }
+
+        #submit {
+            display: block;
+            width: 95%;
+            background-color: $headline-color;
+            color: $white;
+            border: 1px solid transparent;
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 0.3rem;
+        }
+    }
+}
+
+#featured {
+    h2 {
+        text-align: center;
+        font-size: 35px;
+        font-family: $base-font;
+        color: $headline-color;
+    }
+
+    h3 {
+        font-size: 30px;
+        font-family: "Arial", sans-serif;
+        color: $base-color;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 32px;
+        color: $base-color;
+        font-family: "Arial", sans-serif;
+    }
+
+    button {
+        display: block;
+        width: 95%;
+        background-color: $background-color;
+        color: $white;
+        border: 1px solid transparent;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 0.3rem;
+    }
+}
+
+#popular {
+    padding: 20px 0;
+
+    h2 {
+        font-size: 35px;
+        font-family: $base-font;
+        color: $headline-color;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 30px;
+        font-family: "Arial", sans-serif;
+        color: $base-color;
+        text-align: center;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 32px;
+        color: $base-color;
+        font-family: "Arial", sans-serif;
+    }
+
+    button {
+        display: block;
+        width: 95%;
+        background-color: $background-color;
+        color: $white;
+        border: 1px solid transparent;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 0.3rem;
+    }
+}
+
+#recipe {
+    padding: 20px 0;
+
+    h2 {
+        font-size: 35px;
+        font-family: $base-font;
+        color: $headline-color;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 30px;
+        font-family: "Arial", sans-serif;
+        color: $base-color;
+        text-align: center;
+    }
+
+    p {
+        font-size: 20px;
+        font-family: "Arial", sans-serif;
+        color: $base-color;
+        line-height: 32px;
+    }
+
+    button {
+        display: block;
+        width: 95%;
+        background-color: $background-color;
+        color: $white;
+        border: 1px solid transparent;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 0.3rem;
+    }
+}
+
+footer {
+    background-color: $background-color;
+    color: $white;
+
+    p {
+        font-size: 18px;
+        font-family: "Arial", sans-serif;
+        padding-left: 10px;
+    }
+
+    li {
+        display: inline-block;
+        padding-left: 80px;
+
+        i {
+            text-decoration: none;
+        }
+    }
+}

@@ -15,14 +15,6 @@ img {
   max-width: 100%;
 }
 
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 .half-width, .third-width {
   padding: 15px 0;
 }
@@ -53,6 +45,7 @@ header {
 header h1 {
   font-size: 35px;
   font-family: "Lobster Two", cursive;
+  padding-left: 15px;
 }
 header nav ul {
   margin-right: 55px;
@@ -100,7 +93,7 @@ header nav button {
 }
 #email form input {
   display: block;
-  width: 95%;
+  width: 90%;
   font-size: 20px;
   border-radius: 0.3rem;
   margin: 15px 10px;
@@ -109,7 +102,7 @@ header nav button {
 }
 #email form #submit {
   display: block;
-  width: 95%;
+  width: 90%;
   background-color: #f04554;
   color: #eff9fb;
   border: 1px solid transparent;
@@ -118,9 +111,6 @@ header nav button {
   border-radius: 0.3rem;
 }
 
-#featured .half-width {
-  padding-right: 15px;
-}
 #featured h2 {
   text-align: center;
   font-size: 30px;
@@ -131,22 +121,110 @@ header nav button {
   font-size: 25px;
   font-family: "Arial", sans-serif;
   color: #290b0a;
+  padding-left: 15px;
 }
 #featured p {
   font-size: 20px;
   line-height: 32px;
   color: #290b0a;
   font-family: "Arial", sans-serif;
+  padding: 0 15px;
 }
 #featured button {
   display: block;
-  width: 95%;
-  background-color: #f04554;
+  width: 90%;
+  background-color: #01bf2b;
   color: #eff9fb;
   border: 1px solid transparent;
   font-size: 20px;
   padding: 10px;
   border-radius: 0.3rem;
+  margin: 15px;
+}
+
+#popular {
+  padding: 20px 0;
+}
+#popular h2 {
+  font-size: 30px;
+  font-family: "Lobster Two", cursive;
+  color: #f04554;
+  text-align: center;
+}
+#popular h3 {
+  font-size: 25px;
+  font-family: "Arial", sans-serif;
+  color: #290b0a;
+  text-align: center;
+}
+#popular p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #290b0a;
+  font-family: "Arial", sans-serif;
+  padding: 0 15px;
+}
+#popular button {
+  display: block;
+  width: 90%;
+  background-color: #01bf2b;
+  color: #eff9fb;
+  border: 1px solid transparent;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 0.3rem;
+  margin-left: 15px;
+}
+
+#recipe {
+  padding: 20px 0;
+}
+#recipe h2 {
+  font-size: 30px;
+  font-family: "Lobster Two", cursive;
+  color: #f04554;
+  text-align: center;
+}
+#recipe h3 {
+  font-size: 25px;
+  font-family: "Arial", sans-serif;
+  color: #290b0a;
+  text-align: center;
+}
+#recipe p {
+  font-size: 20px;
+  font-family: "Arial", sans-serif;
+  color: #290b0a;
+  line-height: 32px;
+  padding: 0 15px;
+}
+#recipe button {
+  display: block;
+  width: 90%;
+  background-color: #01bf2b;
+  color: #eff9fb;
+  border: 1px solid transparent;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 0.3rem;
+  margin-left: 15px;
+}
+
+footer {
+  background-color: #01bf2b;
+  color: #eff9fb;
+}
+footer p {
+  font-size: 18px;
+  font-family: "Arial", sans-serif;
+  padding-left: 10px;
+}
+footer li {
+  display: inline-block;
+  padding-left: 40px;
+}
+footer li i {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=mobile.css.map */

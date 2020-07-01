@@ -22,14 +22,6 @@ img {
     max-width: 100%;
 }
 
-.container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .half-width, .third-width {
     padding: 15px 0;
 }
@@ -62,6 +54,7 @@ header {
     h1 {
         font-size: 35px;
         font-family: $base-font;
+        padding-left: 15px;
     }
 
     nav {
@@ -120,7 +113,7 @@ header {
     form {
         input {
             display: block;
-            width: 95%;
+            width: 90%;
             font-size: 20px;
             border-radius: 0.3rem;
             margin: 15px 10px;
@@ -130,7 +123,7 @@ header {
 
         #submit {
             display: block;
-            width: 95%;
+            width: 90%;
             background-color: $headline-color;
             color: $white;
             border: 1px solid transparent;
@@ -142,10 +135,6 @@ header {
 }
 
 #featured {
-    .half-width {
-        padding-right: 15px;
-    }
-    
     h2 {
         text-align: center;
         font-size: 30px;
@@ -157,6 +146,7 @@ header {
         font-size: 25px;
         font-family: "Arial", sans-serif;
         color: $base-color;
+        padding-left: 15px;
     }
 
     p {
@@ -164,16 +154,114 @@ header {
         line-height: 32px;
         color: $base-color;
         font-family: "Arial", sans-serif;
+        padding: 0 15px;
     }
 
     button {
         display: block;
-        width: 95%;
-        background-color: $headline-color;
+        width: 90%;
+        background-color: $background-color;
         color: $white;
         border: 1px solid transparent;
         font-size: 20px;
         padding: 10px;
         border-radius: 0.3rem;
+        margin: 15px;
+    }
+}
+
+#popular {
+    padding: 20px 0;
+
+    h2 {
+        font-size: 30px;
+        font-family: $base-font;
+        color: $headline-color;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 25px;
+        font-family: "Arial", sans-serif;
+        color: $base-color;
+        text-align: center;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 32px;
+        color: $base-color;
+        font-family: "Arial", sans-serif;
+        padding: 0 15px;
+    }
+
+    button {
+        display: block;
+        width: 90%;
+        background-color: $background-color;
+        color: $white;
+        border: 1px solid transparent;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 0.3rem;
+        margin-left: 15px;
+    }
+}
+
+#recipe {
+    padding: 20px 0;
+
+    h2 {
+        font-size: 30px;
+        font-family: $base-font;
+        color: $headline-color;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 25px;
+        font-family: "Arial", sans-serif;
+        color: $base-color;
+        text-align: center;
+    }
+
+    p {
+        font-size: 20px;
+        font-family: "Arial", sans-serif;
+        color: $base-color;
+        line-height: 32px;
+        padding: 0 15px;
+    }
+
+    button {
+        display: block;
+        width: 90%;
+        background-color: $background-color;
+        color: $white;
+        border: 1px solid transparent;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 0.3rem;
+        margin-left: 15px;
+    }
+}
+
+footer {
+    background-color: $background-color;
+    color: $white;
+
+    p {
+        font-size: 18px;
+        font-family: "Arial", sans-serif;
+        padding-left: 10px;
+    }
+
+    li {
+        display: inline-block;
+        padding-left: 40px;
+
+        i {
+            text-decoration: none;
+        }
     }
 }
