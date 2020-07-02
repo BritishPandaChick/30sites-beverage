@@ -1,0 +1,135 @@
+/* Sass Variables */
+/* Base Styles */
+body {
+  background-color: #eff9fb;
+  margin: 0 auto;
+  width: 100%;
+  color: #290b0a;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.full-width {
+  width: 100%;
+  display: flex;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.third-width {
+  width: 25%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.half-width, .third-width {
+  padding: 25px 0;
+}
+
+/* Announcements */
+#announcements {
+  background-color: #f04554;
+  padding: 10px 0;
+}
+#announcements h4 {
+  font-size: 18px;
+  color: #eff9fb;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+#announcements p {
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  line-height: 32px;
+  color: #eff9fb;
+  padding: 0 15px;
+}
+
+/* Header */
+header {
+  padding: 15px 0;
+}
+header h1 {
+  font-size: 45px;
+  font-family: "Lobster Two", cursive;
+  padding-left: 15px;
+}
+header nav ul {
+  display: inline-flex;
+  justify-content: space-around;
+}
+header nav li {
+  list-style-type: none;
+  padding: 40px 45px;
+  align-items: space-between;
+}
+header nav a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Arial", sans-serif;
+  color: #290b0a;
+}
+header nav a:hover {
+  color: #5a3626;
+}
+header nav button {
+  display: block;
+  width: 100%;
+  background-color: #01bf2b;
+  color: #eff9fb;
+  border: 1px solid transparent;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 0.3rem;
+}
+
+/* Email */
+#email {
+  background-color: #01bf2b;
+  padding: 20px 0;
+}
+#email h2 {
+  font-size: 40px;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  color: #eff9fb;
+}
+#email p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #eff9fb;
+  padding: 0 15px;
+}
+#email form {
+  border: 2px solid purple;
+}
+#email form input {
+  width: 100%;
+  font-size: 20px;
+  border-radius: 0.3rem;
+  margin: 15px 20px;
+  padding: 5px 0;
+  border: 1px solid transparent;
+}
+#email form #submit {
+  display: block;
+  width: 95%;
+  background-color: #f04554;
+  color: #eff9fb;
+  border: 1px solid transparent;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 0.3rem;
+}
+
+/*# sourceMappingURL=style.css.map */
