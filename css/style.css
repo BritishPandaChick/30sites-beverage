@@ -33,7 +33,7 @@ img {
 }
 
 .half-width, .third-width {
-  padding: 25px 0;
+  padding: 25px 40px;
 }
 
 /* Announcements */
@@ -109,17 +109,21 @@ header nav button {
   line-height: 32px;
   color: #eff9fb;
   padding: 0 15px;
-}
-#email form {
-  border: 2px solid purple;
+  font-family: "Arial", sans-serif;
 }
 #email form input {
   width: 100%;
   font-size: 20px;
   border-radius: 0.3rem;
-  margin: 15px 20px;
-  padding: 5px 0;
   border: 1px solid transparent;
+}
+#email form #name {
+  margin: 15px 40px;
+  padding: 10px;
+}
+#email form #address {
+  margin: 15px 80px;
+  padding: 10px;
 }
 #email form #submit {
   display: block;
@@ -129,7 +133,124 @@ header nav button {
   border: 1px solid transparent;
   font-size: 20px;
   padding: 10px;
+  margin: 15px 130px;
   border-radius: 0.3rem;
+}
+
+/* Featured */
+#featured {
+  padding: 20px 0;
+}
+#featured h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Lobster Two", cursive;
+  color: #f04554;
+}
+#featured h3 {
+  font-size: 35px;
+  font-family: "Arial", sans-serif;
+  color: #290b0a;
+}
+#featured p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #290b0a;
+  font-family: "Arial", sans-serif;
+}
+#featured button {
+  display: block;
+  width: 95%;
+  background-color: #01bf2b;
+  color: #eff9fb;
+  border: 1px solid transparent;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 0.3rem;
+}
+
+/* Popular */
+#popular {
+  padding: 20px 0;
+}
+#popular h2 {
+  font-size: 35px;
+  font-family: "Lobster Two", cursive;
+  color: #f04554;
+  text-align: center;
+}
+#popular h3 {
+  font-size: 30px;
+  font-family: "Arial", sans-serif;
+  color: #290b0a;
+  text-align: center;
+}
+#popular p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #290b0a;
+  font-family: "Arial", sans-serif;
+}
+#popular button {
+  display: block;
+  width: 95%;
+  background-color: #01bf2b;
+  color: #eff9fb;
+  border: 1px solid transparent;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 0.3rem;
+}
+
+/* Recipe */
+#recipe {
+  padding: 20px 0;
+}
+#recipe h2 {
+  font-size: 35px;
+  font-family: "Lobster Two", cursive;
+  color: #f04554;
+  text-align: center;
+}
+#recipe h3 {
+  font-size: 30px;
+  font-family: "Arial", sans-serif;
+  color: #290b0a;
+  text-align: center;
+}
+#recipe p {
+  font-size: 20px;
+  font-family: "Arial", sans-serif;
+  color: #290b0a;
+  line-height: 32px;
+}
+#recipe button {
+  display: block;
+  width: 95%;
+  background-color: #01bf2b;
+  color: #eff9fb;
+  border: 1px solid transparent;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 0.3rem;
+}
+
+/* Footer */
+footer {
+  background-color: #01bf2b;
+  color: #eff9fb;
+}
+footer p {
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  padding-left: 10px;
+}
+footer li {
+  display: inline-block;
+  padding-left: 40px;
+}
+footer li i {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

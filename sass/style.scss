@@ -40,7 +40,7 @@ img {
 }
 
 .half-width, .third-width {
-    padding: 25px 0;
+    padding: 25px 40px;
 }
 
 /* Announcements */
@@ -127,18 +127,25 @@ header {
         line-height: 32px;
         color: $white;
         padding: 0 15px;
+        font-family: "Arial", sans-serif;
     }
 
     form {
-        border: 2px solid purple;
-
         input {
             width: 100%;
             font-size: 20px;
             border-radius: 0.3rem;
-            margin: 15px 20px;
-            padding: 5px 0;
             border: 1px solid transparent;
+        }
+
+        #name {
+            margin: 15px 40px;
+            padding: 10px;
+        }
+
+        #address {
+            margin: 15px 80px;
+            padding: 10px;
         }
 
         #submit {
@@ -149,7 +156,139 @@ header {
             border: 1px solid transparent;
             font-size: 20px;
             padding: 10px;
+            margin: 15px 130px;
             border-radius: 0.3rem;
+        }
+    }
+}
+
+/* Featured */ 
+#featured {
+    padding: 20px 0;
+
+    h2 {
+        text-align: center;
+        font-size: 40px;
+        font-family: $base-font;
+        color: $headline-color;
+    }
+
+    h3 {
+        font-size: 35px;
+        font-family: "Arial", sans-serif;
+        color: $base-color;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 32px;
+        color: $base-color;
+        font-family: "Arial", sans-serif;
+    }
+
+    button {
+        display: block;
+        width: 95%;
+        background-color: $background-color;
+        color: $white;
+        border: 1px solid transparent;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 0.3rem;
+    }
+}
+
+/* Popular */
+#popular {
+    padding: 20px 0;
+
+    h2 {
+        font-size: 35px;
+        font-family: $base-font;
+        color: $headline-color;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 30px;
+        font-family: "Arial", sans-serif;
+        color: $base-color;
+        text-align: center;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 32px;
+        color: $base-color;
+        font-family: "Arial", sans-serif;
+    }
+
+    button {
+        display: block;
+        width: 95%;
+        background-color: $background-color;
+        color: $white;
+        border: 1px solid transparent;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 0.3rem;
+    }
+}
+
+/* Recipe */
+#recipe {
+    padding: 20px 0;
+
+    h2 {
+        font-size: 35px;
+        font-family: $base-font;
+        color: $headline-color;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 30px;
+        font-family: "Arial", sans-serif;
+        color: $base-color;
+        text-align: center;
+    }
+
+    p {
+        font-size: 20px;
+        font-family: "Arial", sans-serif;
+        color: $base-color;
+        line-height: 32px;
+    }
+
+    button {
+        display: block;
+        width: 95%;
+        background-color: $background-color;
+        color: $white;
+        border: 1px solid transparent;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 0.3rem;
+    }
+}
+
+/* Footer */
+footer {
+    background-color: $background-color;
+    color: $white;
+
+    p {
+        font-size: 16px;
+        font-family: "Arial", sans-serif;
+        padding-left: 10px;
+    }
+
+    li {
+        display: inline-block;
+        padding-left: 40px;
+
+        i {
+            text-decoration: none;
         }
     }
 }

@@ -9,6 +9,7 @@ body {
 
 .full-width {
   width: 100%;
+  padding: 20px 0;
 }
 
 img {
@@ -22,7 +23,7 @@ img {
 /* Announcements */
 #announcements {
   background-color: #f04554;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 #announcements h4 {
   font-size: 18px;
@@ -111,6 +112,7 @@ header nav button {
   border-radius: 0.3rem;
 }
 
+/* Featured */
 #featured h2 {
   text-align: center;
   font-size: 30px;
@@ -142,6 +144,7 @@ header nav button {
   margin: 15px;
 }
 
+/* Popular */
 #popular {
   padding: 20px 0;
 }
@@ -176,6 +179,7 @@ header nav button {
   margin-left: 15px;
 }
 
+/* Recipe */
 #recipe {
   padding: 20px 0;
 }
@@ -210,6 +214,7 @@ header nav button {
   margin-left: 15px;
 }
 
+/* Footer */
 footer {
   background-color: #01bf2b;
   color: #eff9fb;

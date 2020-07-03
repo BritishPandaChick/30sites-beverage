@@ -16,6 +16,7 @@ body {
 
 .full-width {
     width: 100%;
+    padding: 20px 0;
 }
 
 img {
@@ -29,7 +30,7 @@ img {
 /* Announcements */
 #announcements {
     background-color: $headline-color;
-    padding: 20px 0;
+    padding: 15px 0;
 
     h4 {
         font-size: 18px;
@@ -134,6 +135,7 @@ header {
     }
 }
 
+/* Featured */
 #featured {
     h2 {
         text-align: center;
@@ -170,6 +172,7 @@ header {
     }
 }
 
+/* Popular */
 #popular {
     padding: 20px 0;
 
@@ -208,6 +211,7 @@ header {
     }
 }
 
+/* Recipe */
 #recipe {
     padding: 20px 0;
 
@@ -246,6 +250,7 @@ header {
     }
 }
 
+/* Footer */
 footer {
     background-color: $background-color;
     color: $white;

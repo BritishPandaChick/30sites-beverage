@@ -119,6 +119,7 @@ header nav button {
   border-radius: 0.3rem;
 }
 
+/* Featured */
 #featured h2 {
   text-align: center;
   font-size: 35px;
@@ -147,6 +148,7 @@ header nav button {
   border-radius: 0.3rem;
 }
 
+/* Popular */
 #popular {
   padding: 20px 0;
 }
@@ -179,6 +181,7 @@ header nav button {
   border-radius: 0.3rem;
 }
 
+/* Recipe */
 #recipe {
   padding: 20px 0;
 }
@@ -211,6 +214,7 @@ header nav button {
   border-radius: 0.3rem;
 }
 
+/* Footer */
 footer {
   background-color: #01bf2b;
   color: #eff9fb;
