@@ -44,14 +44,12 @@ img {
         font-family: "Arial", sans-serif;
         line-height: 32px;
         color: $white;
-        padding: 15px;
+        padding: 0 15px;
     }
 }
 
 /* Header */
 header {
-    padding: 15x 0;
-
     h1 {
         font-size: 35px;
         font-family: $base-font;
@@ -108,23 +106,25 @@ header {
         font-size: 20px;
         line-height: 32px;
         color: $white;
-        padding: 15px;
+        padding: 0 15px;
     }
 
     form {
         input {
             display: block;
-            width: 90%;
             font-size: 20px;
             border-radius: 0.3rem;
-            margin: 15px 10px;
-            padding: 5px 0;
+            padding: 10px;
             border: 1px solid transparent;
+        }
+
+        #name, #address {
+            width: 100%;
         }
 
         #submit {
             display: block;
-            width: 90%;
+            width: 100%;
             background-color: $headline-color;
             color: $white;
             border: 1px solid transparent;
@@ -137,6 +137,8 @@ header {
 
 /* Featured */
 #featured {
+    padding: 20px 0;
+
     h2 {
         text-align: center;
         font-size: 30px;
@@ -148,7 +150,7 @@ header {
         font-size: 25px;
         font-family: "Arial", sans-serif;
         color: $base-color;
-        padding-left: 15px;
+        padding: 0 20px;
     }
 
     p {
@@ -156,19 +158,22 @@ header {
         line-height: 32px;
         color: $base-color;
         font-family: "Arial", sans-serif;
-        padding: 0 15px;
+        padding: 0 20px;
     }
 
     button {
         display: block;
-        width: 90%;
+        width: 100%;
         background-color: $background-color;
         color: $white;
         border: 1px solid transparent;
         font-size: 20px;
         padding: 10px;
         border-radius: 0.3rem;
-        margin: 15px;
+    }
+
+    img {
+        padding: 15px 0;
     }
 }
 
@@ -195,19 +200,19 @@ header {
         line-height: 32px;
         color: $base-color;
         font-family: "Arial", sans-serif;
-        padding: 0 15px;
+        padding: 0 20px;
     }
 
     button {
         display: block;
-        width: 90%;
+        width: 100%;
         background-color: $background-color;
         color: $white;
         border: 1px solid transparent;
         font-size: 20px;
         padding: 10px;
         border-radius: 0.3rem;
-        margin-left: 15px;
+        margin-bottom: 15px;
     }
 }
 
@@ -234,19 +239,18 @@ header {
         font-family: "Arial", sans-serif;
         color: $base-color;
         line-height: 32px;
-        padding: 0 15px;
+        padding: 0 20px;
     }
 
     button {
         display: block;
-        width: 90%;
+        width: 100%;
         background-color: $background-color;
         color: $white;
         border: 1px solid transparent;
         font-size: 20px;
         padding: 10px;
         border-radius: 0.3rem;
-        margin-left: 15px;
     }
 }
 
@@ -258,7 +262,7 @@ footer {
     p {
         font-size: 18px;
         font-family: "Arial", sans-serif;
-        padding-left: 10px;
+        padding-left: 15px;
     }
 
     li {

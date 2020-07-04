@@ -36,13 +36,10 @@ img {
   font-family: "Arial", sans-serif;
   line-height: 32px;
   color: #eff9fb;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 /* Header */
-header {
-  padding: 15x 0;
-}
 header h1 {
   font-size: 35px;
   font-family: "Lobster Two", cursive;
@@ -90,20 +87,21 @@ header nav button {
   font-size: 20px;
   line-height: 32px;
   color: #eff9fb;
-  padding: 15px;
+  padding: 0 15px;
 }
 #email form input {
   display: block;
-  width: 90%;
   font-size: 20px;
   border-radius: 0.3rem;
-  margin: 15px 10px;
-  padding: 5px 0;
+  padding: 10px;
   border: 1px solid transparent;
+}
+#email form #name, #email form #address {
+  width: 100%;
 }
 #email form #submit {
   display: block;
-  width: 90%;
+  width: 100%;
   background-color: #f04554;
   color: #eff9fb;
   border: 1px solid transparent;
@@ -113,6 +111,9 @@ header nav button {
 }
 
 /* Featured */
+#featured {
+  padding: 20px 0;
+}
 #featured h2 {
   text-align: center;
   font-size: 30px;
@@ -123,25 +124,27 @@ header nav button {
   font-size: 25px;
   font-family: "Arial", sans-serif;
   color: #290b0a;
-  padding-left: 15px;
+  padding: 0 20px;
 }
 #featured p {
   font-size: 20px;
   line-height: 32px;
   color: #290b0a;
   font-family: "Arial", sans-serif;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 #featured button {
   display: block;
-  width: 90%;
+  width: 100%;
   background-color: #01bf2b;
   color: #eff9fb;
   border: 1px solid transparent;
   font-size: 20px;
   padding: 10px;
   border-radius: 0.3rem;
-  margin: 15px;
+}
+#featured img {
+  padding: 15px 0;
 }
 
 /* Popular */
@@ -165,18 +168,18 @@ header nav button {
   line-height: 32px;
   color: #290b0a;
   font-family: "Arial", sans-serif;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 #popular button {
   display: block;
-  width: 90%;
+  width: 100%;
   background-color: #01bf2b;
   color: #eff9fb;
   border: 1px solid transparent;
   font-size: 20px;
   padding: 10px;
   border-radius: 0.3rem;
-  margin-left: 15px;
+  margin-bottom: 15px;
 }
 
 /* Recipe */
@@ -200,18 +203,17 @@ header nav button {
   font-family: "Arial", sans-serif;
   color: #290b0a;
   line-height: 32px;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 #recipe button {
   display: block;
-  width: 90%;
+  width: 100%;
   background-color: #01bf2b;
   color: #eff9fb;
   border: 1px solid transparent;
   font-size: 20px;
   padding: 10px;
   border-radius: 0.3rem;
-  margin-left: 15px;
 }
 
 /* Footer */
@@ -222,7 +224,7 @@ footer {
 footer p {
   font-size: 18px;
   font-family: "Arial", sans-serif;
-  padding-left: 10px;
+  padding-left: 15px;
 }
 footer li {
   display: inline-block;
