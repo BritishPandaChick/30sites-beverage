@@ -24,20 +24,29 @@ body {
 
 .full-width {
     width: 100%;
+    display: flex;
 }
 
 img {
     max-width: 100%;
 }
 
+.half-width {
+    width: 50%;
+}
+
+.third-width {
+    width: 25%;
+}
+
 .half-width, .third-width {
-    padding: 25px 0;
+    padding: 25px 40px;
 }
 
 /* Announcements */
 #announcements {
     background-color: $headline-color;
-    padding: 10px 0;
+    padding: 15px 0;
 
     h4 {
         font-size: 20px;
@@ -67,12 +76,14 @@ header {
 
     nav {
         ul {
-            margin-right: 55px;
+            display: inline-flex;
+            justify-content: space-around;
         }
 
         li {
             list-style-type: none;
-            padding: 15px 0;
+            padding: 40px 5px;
+            align-items: space-between;
         }
         
         a {
@@ -115,29 +126,39 @@ header {
         font-size: 20px;
         line-height: 32px;
         color: $white;
-        padding: 0 15px;
+        padding: 0 20px;
     }
 
     form {
         input {
             display: block;
-            width: 95%;
             font-size: 20px;
             border-radius: 0.3rem;
-            margin: 15px;
-            padding: 5px 0;
             border: 1px solid transparent;
+        }
+
+        #name {
+            width: 100%;
+            padding: 10px;
+            margin: 15px 5px;
+        }
+
+        #address {
+            width: 100%;
+            padding: 10px;
+            margin: 15px 5px;
         }
 
         #submit {
             display: block;
-            width: 95%;
+            width: 100%;
             background-color: $headline-color;
             color: $white;
             border: 1px solid transparent;
             font-size: 20px;
             padding: 10px;
             border-radius: 0.3rem;
+            margin: 15px 5px;
         }
     }
 }
@@ -162,6 +183,7 @@ header {
         line-height: 32px;
         color: $base-color;
         font-family: "Arial", sans-serif;
+        padding: 0 15px;
     }
 
     button {
@@ -173,6 +195,10 @@ header {
         font-size: 20px;
         padding: 10px;
         border-radius: 0.3rem;
+    }
+
+    img {
+
     }
 }
 

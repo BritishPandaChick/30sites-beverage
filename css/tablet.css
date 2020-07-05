@@ -17,20 +17,29 @@ body {
 
 .full-width {
   width: 100%;
+  display: flex;
 }
 
 img {
   max-width: 100%;
 }
 
+.half-width {
+  width: 50%;
+}
+
+.third-width {
+  width: 25%;
+}
+
 .half-width, .third-width {
-  padding: 25px 0;
+  padding: 25px 40px;
 }
 
 /* Announcements */
 #announcements {
   background-color: #f04554;
-  padding: 10px 0;
+  padding: 15px 0;
 }
 #announcements h4 {
   font-size: 20px;
@@ -56,11 +65,13 @@ header h1 {
   padding-left: 15px;
 }
 header nav ul {
-  margin-right: 55px;
+  display: inline-flex;
+  justify-content: space-around;
 }
 header nav li {
   list-style-type: none;
-  padding: 15px 0;
+  padding: 40px 5px;
+  align-items: space-between;
 }
 header nav a {
   text-decoration: none;
@@ -97,26 +108,34 @@ header nav button {
   font-size: 20px;
   line-height: 32px;
   color: #eff9fb;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 #email form input {
   display: block;
-  width: 95%;
   font-size: 20px;
   border-radius: 0.3rem;
-  margin: 15px;
-  padding: 5px 0;
   border: 1px solid transparent;
+}
+#email form #name {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 5px;
+}
+#email form #address {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 5px;
 }
 #email form #submit {
   display: block;
-  width: 95%;
+  width: 100%;
   background-color: #f04554;
   color: #eff9fb;
   border: 1px solid transparent;
   font-size: 20px;
   padding: 10px;
   border-radius: 0.3rem;
+  margin: 15px 5px;
 }
 
 /* Featured */
@@ -136,6 +155,7 @@ header nav button {
   line-height: 32px;
   color: #290b0a;
   font-family: "Arial", sans-serif;
+  padding: 0 15px;
 }
 #featured button {
   display: block;
@@ -147,7 +167,6 @@ header nav button {
   padding: 10px;
   border-radius: 0.3rem;
 }
-
 /* Popular */
 #popular {
   padding: 20px 0;
