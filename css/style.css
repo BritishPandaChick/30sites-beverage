@@ -25,7 +25,7 @@ body {
 }
 
 .third-width {
-  width: 25%;
+  width: 30%;
 }
 
 img {
@@ -118,28 +118,28 @@ header nav button {
   border: 1px solid transparent;
 }
 #email form #name {
-  margin: 15px 40px;
+  margin: 15px 10px;
   padding: 10px;
 }
 #email form #address {
-  margin: 15px 80px;
+  margin: 15px 10px;
   padding: 10px;
 }
 #email form #submit {
   display: block;
-  width: 95%;
+  width: 100%;
   background-color: #f04554;
   color: #eff9fb;
   border: 1px solid transparent;
   font-size: 20px;
   padding: 10px;
-  margin: 15px 130px;
+  margin: 15px 10px;
   border-radius: 0.3rem;
 }
 
 /* Featured */
 #featured {
-  padding: 20px 0;
+  padding: 40px 0;
 }
 #featured h2 {
   text-align: center;
@@ -168,19 +168,22 @@ header nav button {
   padding: 10px;
   border-radius: 0.3rem;
 }
+#featured img {
+  padding: 40px 0;
+}
 
 /* Popular */
 #popular {
-  padding: 20px 0;
+  padding: 40px 0;
 }
 #popular h2 {
-  font-size: 35px;
+  font-size: 40px;
   font-family: "Lobster Two", cursive;
   color: #f04554;
   text-align: center;
 }
 #popular h3 {
-  font-size: 30px;
+  font-size: 35px;
   font-family: "Arial", sans-serif;
   color: #290b0a;
   text-align: center;
@@ -193,7 +196,7 @@ header nav button {
 }
 #popular button {
   display: block;
-  width: 95%;
+  width: 100%;
   background-color: #01bf2b;
   color: #eff9fb;
   border: 1px solid transparent;
@@ -204,16 +207,19 @@ header nav button {
 
 /* Recipe */
 #recipe {
-  padding: 20px 0;
+  padding: 40px 0;
 }
 #recipe h2 {
-  font-size: 35px;
+  font-size: 40px;
   font-family: "Lobster Two", cursive;
   color: #f04554;
   text-align: center;
 }
+#recipe img {
+  padding: 40px 0;
+}
 #recipe h3 {
-  font-size: 30px;
+  font-size: 35px;
   font-family: "Arial", sans-serif;
   color: #290b0a;
   text-align: center;
@@ -226,7 +232,7 @@ header nav button {
 }
 #recipe button {
   display: block;
-  width: 95%;
+  width: 100%;
   background-color: #01bf2b;
   color: #eff9fb;
   border: 1px solid transparent;
@@ -243,7 +249,6 @@ footer {
 footer p {
   font-size: 16px;
   font-family: "Arial", sans-serif;
-  padding-left: 10px;
 }
 footer li {
   display: inline-block;

@@ -40,6 +40,9 @@ img {
 }
 
 /* Header */
+header {
+  border: 2px solid purple;
+}
 header h1 {
   font-size: 35px;
   font-family: "Lobster Two", cursive;

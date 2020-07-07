@@ -32,7 +32,7 @@ body {
 }
 
 .third-width {
-    width: 25%;
+    width: 30%;
 }
 
 img {
@@ -139,24 +139,24 @@ header {
         }
 
         #name {
-            margin: 15px 40px;
+            margin: 15px 10px;
             padding: 10px;
         }
 
         #address {
-            margin: 15px 80px;
+            margin: 15px 10px;
             padding: 10px;
         }
 
         #submit {
             display: block;
-            width: 95%;
+            width: 100%;
             background-color: $headline-color;
             color: $white;
             border: 1px solid transparent;
             font-size: 20px;
             padding: 10px;
-            margin: 15px 130px;
+            margin: 15px 10px;
             border-radius: 0.3rem;
         }
     }
@@ -164,7 +164,7 @@ header {
 
 /* Featured */ 
 #featured {
-    padding: 20px 0;
+    padding: 40px 0;
 
     h2 {
         text-align: center;
@@ -196,21 +196,25 @@ header {
         padding: 10px;
         border-radius: 0.3rem;
     }
+
+    img {
+        padding: 40px 0;
+    }
 }
 
 /* Popular */
 #popular {
-    padding: 20px 0;
+    padding: 40px 0;
 
     h2 {
-        font-size: 35px;
+        font-size: 40px;
         font-family: $base-font;
         color: $headline-color;
         text-align: center;
     }
 
     h3 {
-        font-size: 30px;
+        font-size: 35px;
         font-family: "Arial", sans-serif;
         color: $base-color;
         text-align: center;
@@ -225,7 +229,7 @@ header {
 
     button {
         display: block;
-        width: 95%;
+        width: 100%;
         background-color: $background-color;
         color: $white;
         border: 1px solid transparent;
@@ -237,17 +241,21 @@ header {
 
 /* Recipe */
 #recipe {
-    padding: 20px 0;
+    padding: 40px 0;
 
     h2 {
-        font-size: 35px;
+        font-size: 40px;
         font-family: $base-font;
         color: $headline-color;
         text-align: center;
     }
 
+    img {
+        padding: 40px 0;
+    }
+
     h3 {
-        font-size: 30px;
+        font-size: 35px;
         font-family: "Arial", sans-serif;
         color: $base-color;
         text-align: center;
@@ -262,7 +270,7 @@ header {
 
     button {
         display: block;
-        width: 95%;
+        width: 100%;
         background-color: $background-color;
         color: $white;
         border: 1px solid transparent;
@@ -280,7 +288,6 @@ footer {
     p {
         font-size: 16px;
         font-family: "Arial", sans-serif;
-        padding-left: 10px;
     }
 
     li {
