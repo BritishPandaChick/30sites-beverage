@@ -9,13 +9,12 @@ $hover-color: #5a3626;
 /* Base Styles */
 body {
     background-color: $white;
-    margin: 0 auto;
     width: 100%;
+    margin: 0 auto;
     color: $base-color;
 }
 
 .full-width {
-    width: 100%;
     padding: 20px 0;
 }
 
@@ -50,8 +49,6 @@ img {
 
 /* Header */
 header {
-    border: 2px solid purple;
-
     h1 {
         font-size: 35px;
         font-family: $base-font;
@@ -121,18 +118,20 @@ header {
         }
 
         #name, #address {
-            width: 100%;
+            width: 90%;
+            margin: 0 5px;
         }
 
         #submit {
             display: block;
-            width: 100%;
+            width: 96%;
             background-color: $headline-color;
             color: $white;
             border: 1px solid transparent;
             font-size: 20px;
             padding: 10px;
             border-radius: 0.3rem;
+            margin: 0 5px;
         }
     }
 }
@@ -165,13 +164,14 @@ header {
 
     button {
         display: block;
-        width: 100%;
+        width: 95%;
         background-color: $background-color;
         color: $white;
         border: 1px solid transparent;
         font-size: 20px;
         padding: 10px;
         border-radius: 0.3rem;
+        margin: 0 5px;
     }
 
     img {
@@ -207,14 +207,14 @@ header {
 
     button {
         display: block;
-        width: 100%;
+        width: 95%;
         background-color: $background-color;
         color: $white;
         border: 1px solid transparent;
         font-size: 20px;
         padding: 10px;
         border-radius: 0.3rem;
-        margin-bottom: 15px;
+        margin: 0 5px;
     }
 }
 
@@ -246,13 +246,14 @@ header {
 
     button {
         display: block;
-        width: 100%;
+        width: 95%;
         background-color: $background-color;
         color: $white;
         border: 1px solid transparent;
         font-size: 20px;
         padding: 10px;
         border-radius: 0.3rem;
+        margin: 0 5px;
     }
 }
 

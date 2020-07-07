@@ -2,13 +2,12 @@
 /* Base Styles */
 body {
   background-color: #eff9fb;
-  margin: 0 auto;
   width: 100%;
+  margin: 0 auto;
   color: #290b0a;
 }
 
 .full-width {
-  width: 100%;
   padding: 20px 0;
 }
 
@@ -40,9 +39,6 @@ img {
 }
 
 /* Header */
-header {
-  border: 2px solid purple;
-}
 header h1 {
   font-size: 35px;
   font-family: "Lobster Two", cursive;
@@ -100,17 +96,19 @@ header nav button {
   border: 1px solid transparent;
 }
 #email form #name, #email form #address {
-  width: 100%;
+  width: 90%;
+  margin: 0 5px;
 }
 #email form #submit {
   display: block;
-  width: 100%;
+  width: 96%;
   background-color: #f04554;
   color: #eff9fb;
   border: 1px solid transparent;
   font-size: 20px;
   padding: 10px;
   border-radius: 0.3rem;
+  margin: 0 5px;
 }
 
 /* Featured */
@@ -138,13 +136,14 @@ header nav button {
 }
 #featured button {
   display: block;
-  width: 100%;
+  width: 95%;
   background-color: #01bf2b;
   color: #eff9fb;
   border: 1px solid transparent;
   font-size: 20px;
   padding: 10px;
   border-radius: 0.3rem;
+  margin: 0 5px;
 }
 #featured img {
   padding: 15px 0;
@@ -175,14 +174,14 @@ header nav button {
 }
 #popular button {
   display: block;
-  width: 100%;
+  width: 95%;
   background-color: #01bf2b;
   color: #eff9fb;
   border: 1px solid transparent;
   font-size: 20px;
   padding: 10px;
   border-radius: 0.3rem;
-  margin-bottom: 15px;
+  margin: 0 5px;
 }
 
 /* Recipe */
@@ -210,13 +209,14 @@ header nav button {
 }
 #recipe button {
   display: block;
-  width: 100%;
+  width: 95%;
   background-color: #01bf2b;
   color: #eff9fb;
   border: 1px solid transparent;
   font-size: 20px;
   padding: 10px;
   border-radius: 0.3rem;
+  margin: 0 5px;
 }
 
 /* Footer */
